@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>applicant form</title>
+    <style>
+        label{
+            display: block;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Application form of bd army</h2>
+    <form>
+        <label for="name">your name:
+            <input id="name" type="text" placeholder="your name">
+        </label>
+        
+        <label for="email">your email:
+            <input id="email" type="email" placeholder="your email">
+        </label>number
+        <label for="phone">
+            <input type="number" id="phone" placeholder="number">
+        </label>
+        
+        <label>your password:
+            <input type="pass" name="password" id="password" placeholder="passward">
+        </label>
+        <fieldset>
+            <legend>one page apply</legend>
+            <label for="mamun">
+                <input type="radio" name="man" id="mamun">mamun
+            </label>
+            <label for="sumon">
+                <input type="radio" name="man" id="sumon">sumon
+            </label>
+            <label for="kawsar">
+                <input type="radio" name="man" id="kawsar">kawsar
+            </label>
+            <label for="sayed">
+                <input type="radio" name="man" id="sayed">sayed
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>select one or more people </legend>
+            <label for="mamun">
+                <input type="checkbox" name="man"  id="mamun">mamun
+            </label>
+            <label for="kawsar">
+                <input type="checkbox" name="man"  id="kawsar">kawsar
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>special instruction</legend>
+            <textarea name="" id="" cols="50" rows="5"></textarea>
+        </fieldset>
+        <input type="reset" value="reset">
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
